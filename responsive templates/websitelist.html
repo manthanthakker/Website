@@ -6,8 +6,20 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	  <style>
+	 
+	   td{
+	  color:#428bca;}
+	  html,body{
+	  position:relative;
+	  bottom:0px;
+	  height:100%;
+	  }
+	  
+	  </style>
    </head>
    <body>
+   
       <div style="position:fixed; background-color:#428bca; padding:15px; width:100%; ">
          <h3><b style="color:#FFFFFF">
             Profile</b>
@@ -19,36 +31,30 @@
       <br>
 	  
       <br>
-      <form style="padding: 15px" class="form-control">
-         <div class="form-group">
-            <h5> Username</h5>
-            <input class="form-control" type="text" placeholder="  username"></input>
-         </div>
-         <div class="form-group">
-            <h5> Email </h5>
-            <input class="form-control" type="email" placeholder="  password"></input>
-         </div>
-         <div class="form-group">
-            <h5>First Name</h5>
-            <input type="password" class="form-control" placeholder="  verify password"></input>
-         </div>
-         <div class="form-group">
-            <h5>Last Name</h5>
-            <input type="text" class="form-control" placeholder="  lastname"></input>
-         </div>
-         <div class="form-group">
-            <button  style="width:100%" type="button" class="btn btn-primary">Websites
-            </button>
-         </div>
-         <div class="form-group">
-            <button  style="width:100%;"   type="button" class="btn btn-danger">Logout
-            </button>
-         </div>
-      </form>
+      <table class="table">
+	 <tr>
+		<td>Address Book App</td>
+		<td>1</td>
+	 </tr>
+	 <tr>
+		<td>Blogger</td>
+		<td>2</td>
+	 </tr>
+	 <tr>
+		<td>Blogging App</td>
+		<td>3</td>
+	 </tr>
+	 <tr>
+		<td>Script Testing App</td>
+		<td>4</td>
+	 </tr>
+	 
+	 <table>
 	  
-	   <div style=" position: relative; background-color:#428bca; padding:25px; width:100%; bottom:0px">
-         <span class="glyphicon glyphicon-plus"></span> 
+	   <div style="  position:absolute; bottom:0;background-color:#428bca; padding:15px; width:100%; ">
+        
       </div>
+	  
       <!-- jQuery first, then Tether, then Bootstrap JS. -->
       <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
